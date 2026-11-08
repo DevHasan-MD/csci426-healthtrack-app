@@ -59,7 +59,7 @@ export default function Log({ entries, addEntry, deleteEntry }) {
         <ul className="list">
           {entries.slice(0, 8).map((e) => (
             <li key={e.id}>
-              <span>{e.label} <span className="meta">{e.value} {kinds[e.kind].unit} · {e.date}</span></span>
+              <span>{e.label} <span className="meta">{e.value} {kinds[e.kind].unit}</span></span>
               <button className="ghost small" onClick={() => deleteEntry(e.id)} aria-label={`Delete ${e.label}`}>Delete</button>
             </li>
           ))}

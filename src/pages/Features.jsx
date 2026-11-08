@@ -14,9 +14,9 @@ export default function Features() {
     <section className="wrap">
       <h1>Features</h1>
       <div className="grid3">
-        <article className="panel"><h3>Daily progress</h3><p>Calories, exercise and water, each with its own goal.</p></article>
-        <article className="panel"><h3>Weekly chart</h3><p>See how many exercise minutes you logged in the last 7 days.</p></article>
-        <article className="panel"><h3>Private by design</h3><p>Data is saved in your browser. No account needed.</p></article>
+        <article className="panel"><h3>Daily totals</h3><p>Calories, exercise and water added up as you log them.</p></article>
+        <article className="panel"><h3>Workout library</h3><p>Search and filter guided routines, then open one for its steps.</p></article>
+        <article className="panel"><h3>Quick logging</h3><p>Add a meal, workout or glass of water in a few seconds.</p></article>
       </div>
 
       <h2>Workout library</h2>

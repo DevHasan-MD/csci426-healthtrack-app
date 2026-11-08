@@ -28,10 +28,6 @@ button,input,textarea{font:inherit;color:inherit}
 .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:2rem;align-items:center;padding-top:3rem}
 .hero-box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem}
 .hero-box h2{margin-top:0}
-.progress{margin:.9rem 0}
-.progress-top{display:flex;justify-content:space-between;font-weight:600;font-size:.95rem}
-.track{height:14px;background:var(--line);border-radius:999px;overflow:hidden;margin-top:.3rem}
-.fill{height:100%;border-radius:999px;transition:width .6s}
 .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
 .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:1.2rem;display:block}
@@ -49,10 +45,8 @@ button,input,textarea{font:inherit;color:inherit}
 .list .meta{display:block}
 .steps{padding-left:1.3rem}
 .steps li{margin:.4rem 0}
-.bars{display:flex;align-items:flex-end;gap:.6rem;height:200px;padding-top:1rem}
-.bar-col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}
-.bar{width:100%;background:var(--sea);border-radius:8px 8px 0 0;min-height:3px;transition:height .5s}
-.bar-val,.bar-label{font-size:.85rem;color:var(--muted)}
+.stat{display:flex;justify-content:space-between;padding:.6rem 0;border-bottom:1px solid var(--line)}
+.big{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:2rem;font-weight:800;margin:.1rem 0 0}
 .footer{text-align:center;color:var(--muted);padding:2rem 1rem;font-size:.9rem}
 @media(max-width:800px){
   .hero,.grid2,.grid3{grid-template-columns:1fr}
